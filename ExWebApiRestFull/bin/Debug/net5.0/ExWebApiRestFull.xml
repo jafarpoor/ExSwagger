@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ExWebApiRestFull</name>
+    </assembly>
+    <members>
+        <member name="M:V1.ExWebApiRestFull.Controllers.CategoriesController.Get">
+            <summary>
+            لیست دسته بندی ها
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:V1.ExWebApiRestFull.Controllers.CategoriesController.Get(System.Int32)">
+            <summary>
+            پیدا کردن دسته بندی مورد نظر با ای دی
+            </summary>
+            <param name="id">شناسه دسته بندی</param>
+            <returns></returns>
+        </member>
+        <member name="M:V1.ExWebApiRestFull.Controllers.CategoriesController.Post(System.String)">
+            <summary>
+            اضافه کردن دسته بندی
+            </summary>
+            <param name="Name">نام دسته بندی</param>
+            <returns></returns>
+        </member>
+        <member name="M:V1.ExWebApiRestFull.Controllers.CategoriesController.Put(ExWebApiRestFull.Model.Services.CategoryDto)">
+            <summary>
+            ویرایش کردن دسته بندی
+            </summary>
+            <param name="categoryDto">نام و شناه دسته بندی</param>
+            <returns></returns>
+        </member>
+        <member name="M:V1.ExWebApiRestFull.Controllers.CategoriesController.Delete(System.Int32)">
+            <summary>
+            حذف کردن دسته بندی
+            </summary>
+            <param name="id">شناسه دسته بندی</param>
+            <returns></returns>
+        </member>
+        <member name="M:ExWebApiRestFull.Controllers.ToDoController.Get">
+            <summary>
+            لیست کارها
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ExWebApiRestFull.Controllers.ToDoController.Get(System.Int32)">
+            <summary>
+            پیدا کردن کار با شناسه
+            </summary>
+            <param name="id">شناسه کارموردنظر</param>
+            <returns></returns>
+        </member>
+        <member name="M:ExWebApiRestFull.Controllers.ToDoController.Post(ExWebApiRestFull.Model.Dto.ItemDto)">
+            <summary>
+            افزودن کار
+            </summary>
+            <param name="itemDto">نام کار</param>
+            <returns></returns>
+        </member>
+        <member name="M:ExWebApiRestFull.Controllers.ToDoController.Put(ExWebApiRestFull.Model.Services.ToDoRepository.EditToDoDto)">
+            <summary>
+            ویرایش کردن کار
+            </summary>
+            <param name="editToDoDto">نام و شناسه کار  و لیست دسته بندیه ا</param>
+            <returns></returns>
+        </member>
+        <member name="M:ExWebApiRestFull.Controllers.ToDoController.Delete(System.Int32)">
+            <summary>
+            حذف کردن کار
+            </summary>
+            <param name="id">شناسه کار</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
